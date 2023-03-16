@@ -11,10 +11,11 @@ lettersArr.forEach(e =>{
 })
 
 let word = {
-  people: ['Muhammad Noor','Leo Messi', 'Afsha', 'Amr Diab', 'Cristiano Ronaldo', 'Tom Cruise', 'Bahgat Saber'],
-  movies: ['Mission Impossible','The Hangover','Titanic','Django','Spider Man', 'The Avengers','Batman'],
-  jobs: ['Engineer','Doctor','Dentist','Police Man','Teacher','Professor','Driver'],
-  anime: ['One Piece','Dragon Ball','Attack On Titan', 'Vinland Saga','Yu Gi Oh','Death Note', 'Gintama','Bleach','Naruto']
+  people: ['Muhammad Noor','Leo Messi', 'Afsha', 'Amr Diab', 'Cristiano Ronaldo', 'Tom Cruise', 'Bahgat Saber','Obama','Mohamed Salah','Tom Hanks','Leonardo Dicaprio','Albert Einstien','Nicola Tesla','Pitso Mosimane','Quintin Tarantino'],
+  movies: ['Mission Impossible','The Hangover','Titanic','Django','Spider Man', 'The Avengers','Batman','Pulp Fiction','The Shawshank Redemption','The Godfather','Inception','Interstellar','Fight Club','Forrest Gump','Star Wars','The Green Mile','Parasite','Gladiator'],
+  jobs: ['Engineer','Doctor','Dentist','Police Man','Teacher','Professor','Driver','Actor','Singer','Blogger','Programmer'],
+  anime: ['One Piece','Dragon Ball','Attack On Titan', 'Vinland Saga','Yu Gi Oh','Death Note', 'Gintama','Bleach','Naruto'],
+  countries : ['Egypt','USA','UAE','Palestine','Saudi Arabia','Libya','Tunisia','Morocco','Comoros','Spain','Germany','Italy','Greece','Turkey','China','Japan','Australia','South Africa','Mexico','Canada','Brazil','Argentina','Chile','Algeria','Yemen','Qatar','Iran']
 }
 
 let randomProp = Object.keys(word)[Math.floor(Math.random()*Object.keys(word).length)];
