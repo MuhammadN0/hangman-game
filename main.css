@@ -17,24 +17,7 @@ body{
   font-size: larger;
   padding: 10px 20px;
 }
-@media (max-width : 768px){
-  .container{
-    width: 340px;
-    overflow: hidden;
-  }
-  .row{
-    flex-direction: column;
-    height: 650px;
-  }
-  .row .letters span{
-    width: 30px;
-    height: 30px;
-    font-size: 18px;
-  }
-  .letters-guess{
-    padding: 0;
-  }
-}
+
 .row{
   display: flex;
   background-color: #f8f8f8;
@@ -256,3 +239,46 @@ body{
   display: block;
 }
 /* End Draw Mechanism */
+
+/* Responsive */
+@media (max-width : 768px){
+  .container{
+    width: 340px;
+    overflow: hidden;
+  }
+  .row{
+    flex-direction: column;
+    height: 550px;
+  }
+  .row .letters{
+    gap: 10px;
+    flex: 0.5;
+  }
+  .row .letters span{
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    margin: 0;
+  }
+  .letters-guess{
+    padding: 0;
+  }
+  .hangman-draw{
+    margin-bottom: 30px;
+  }
+  .game-info .game-name{
+    font-size: 16px;
+    border-right: solid 2px #222;
+    padding: 0;
+  }
+  .game-info .category{
+    font-size: 16px;
+    padding: 0;
+    text-align: right;
+  }
+  .game-info .category span{
+    font-size: 16px;
+    padding: 0;
+  }
+}
+/* Responsive */
